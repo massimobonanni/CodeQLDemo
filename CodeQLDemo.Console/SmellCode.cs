@@ -7,8 +7,8 @@ public class SmellCode
     // Expose Sensitive Data
     public void ExposeSensitiveData()
     {
-        string password = Console.ReadLine();
-        Console.WriteLine("Your password is: " + password);
+        //string password = Console.ReadLine();
+        //Console.WriteLine("Your password is: " + password);
     }
 
     // Weak Cryptography
