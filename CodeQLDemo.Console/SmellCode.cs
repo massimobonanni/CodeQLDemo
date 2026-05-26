@@ -14,9 +14,9 @@ public class SmellCode
     // Weak Cryptography
     public void EncryptData()
     {
-        //var des = new DESCryptoServiceProvider(); // 🔥 Weak algorithm
-        //des.GenerateKey();
-        //des.GenerateIV();
+        var des = new DESCryptoServiceProvider(); // 🔥 Weak algorithm
+        des.GenerateKey();
+        des.GenerateIV();
     }
 
     // SQL Injection Risk
